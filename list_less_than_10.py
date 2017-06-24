@@ -24,9 +24,9 @@ list_lt_5 = []
 for i in a:
     if i < 5:
         list_lt_5.append(i)
-print(list_lt_5)'''
+print(list_lt_5)
 
-#!/usr/bin/env python
+#!/usr/bin/env python'''
 
 a = [1,5,6,9,4,5,6,2,8,1,5,45]
 lt_5 = list(filter(lambda x: x < 5, a))
